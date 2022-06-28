@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin:0;
+    padding:30px;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 2px;
+    font-size:20px;
+    height: 400px;
+}
+
+#resultado{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:260px;
+    height: 30px;
+    background-color: #FFF;
+    color: #2ed981;
+    font-weight: 700;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+.button, .otherBtns, .buttonEqual{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #275180, #1957ca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #27486e, #223963); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 2px;
+    border: none;
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.opBtns{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button0{
+    width:124px;
+}
+
+.buttonEqual{
+    height:94px;
+    
+}
+
+table{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer  {
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+a {
+    font-weight: 700;
+    color:white;
+}
